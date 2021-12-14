@@ -7,6 +7,7 @@
         <title>Portefólio || Daniel Almeida</title>
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/table.css">
+        <link rel="stylesheet" href="../css/coluna.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script type="text/javascript" src="../js/scroll.js" > </script>
 
@@ -39,10 +40,10 @@
 
         <div id="Mobile_Options" class="Mobile_Options">
             <li><a  ><i onclick="Close_Menu();" class="fa fa-times"></i></a></li>
-            <li><a  href="#home">Início</a></li>
-            <li><a  href="#Projetos">Escola Secundária Gago Coutinho</a></li>
-            <li><a  href="#Habilidades">Escola Superior de Gestão de Técnologias</a></li>
-            <li><a  href="#Contactos">Contactos</a></li>   
+            <li><a onclick="Close_Menu();" href="#home">Início</a></li>
+            <li><a onclick="Close_Menu();" href="#Projetos">Escola Secundária Gago Coutinho</a></li>
+            <li><a onclick="Close_Menu();" href="#Habilidades">Escola Superior de Gestão de Técnologias</a></li>
+            <li><a onclick="Close_Menu();" href="#Contactos">Contactos</a></li>   
         </div>
 
         <!--Imagem de Fundo-->
@@ -66,16 +67,25 @@
             <scroll-container>
                 <scroll-page id="sobre_min_section"><p class="title_sobre_mim">Escola Secundária Gago Coutinho</p></scroll-page>
             </scroll-container>
-            <section class="img_presentacao">
+            <section class="escola">
 
-                    <img src="../img/Esgt_PNG.png"></img>
-                    
-                    <div class="desc">
-                        <h1> Nesta escola, eu realizei um curso <span>Técnico e Gestão dos Sistemas Informáticos</span> </h1>
-                        <p>  Este curso teve duração de 600 horas</p>
-                        <p> <b> Disciplinas:</b> </p>
+                        <div class="coluna_escola">
+                            
+                            <div class="esquerda">
+                                <img src="../img/Esgt_PNG.png" class="gago_icon" alt="">
+                            </div>
+                            
+                            <div class="direita">
+                                Nesta escola, eu realizei um curso <b>Técnico e Gestão dos Sistemas Informáticos</b>
+                                <p>  Este curso teve duração de 3 anos + 600 horas de estágio;</p>
+                                <p>  <b>Média do Curso</b> : 17 valores</p>
+                                <p>  <b>Projeto de Aptidão de Curso</b>: 20 valores</p>
+                            </div>
+                        </div>
 
-                        <table >
+
+
+                        <table>
                             <tr class="header" >
                                 <td>Disciplina</td>
                                 <td>Concluídos</td>
@@ -157,17 +167,12 @@
         <!-- Apresentação-->
         <div class="box" id="about">
             <scroll-container>
-                <scroll-page id="sobre_min_section"><p class="title_sobre_mim">Escola Secundária Gago Coutinho</p></scroll-page>
+                <scroll-page id="sobre_min_section"><p class="title_sobre_mim">Escola de Gestão e Tecnologia de Santarém</p></scroll-page>
             </scroll-container>
             <section class="img_presentacao">
 
-                    <img src="../img/Esgt_PNG.png"></img>
-                    
+                    <img src="../img/Esgt_PNG.png" class="gago_icon"></img>                    
                     <div class="desc">
-                        <h1> Nesta escola, eu realizei um curso <span>Técnico e Gestão dos Sistemas Informáticos</span> </h1>
-                        <p>  Este curso teve duração de 600 horas</p>
-                        <p> <b> Disciplinas:</b> </p>
-
                         <table >
                             <tr class="header" >
                                 <td>Disciplina</td>

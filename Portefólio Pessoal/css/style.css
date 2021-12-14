@@ -21,6 +21,7 @@ body{
   background: url("../img/background.jpg") no-repeat center;
   height: 100vh;
   min-height: 500px;
+  background-size: cover;
 }
 
 .Apresentacao_com_bg_imagem .max-width{
@@ -658,6 +659,8 @@ footer a {
   overflow: hidden;
 }
 
+
+
 @media screen and (max-width: 1180px) {
  
   .contact .contact_option{
@@ -681,6 +684,15 @@ footer a {
 }
 
 @media screen and (max-width: 994px) {
+
+  .gago_icon{
+    width: 50%;
+    height: 50%;
+    display: block;
+  }
+  
+
+
   .img_presentacao img{
     width: 50%;
     height: 50%;
@@ -689,6 +701,8 @@ footer a {
   .img_presentacao .desc{
     width: 90%;
   }
+
+
 }
 
 
@@ -739,7 +753,9 @@ footer a {
     margin-right: auto;
   }
   
-
-
+.projetos .carousel .card
+{
+  width: 70%;
+}
 }
 
