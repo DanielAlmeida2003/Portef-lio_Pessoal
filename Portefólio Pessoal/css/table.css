@@ -7,6 +7,7 @@ table{
     border: 3px solid #cccc;
     border-radius: 1.5rem;
     border-collapse:collapse;
+   
 }
 
 table tr{
@@ -32,3 +33,13 @@ table tr .bold_disciplina{
 table  #risk_disciplina{
     background-color: #b4caf5;
 }
+
+
+@media screen and (max-width: 870px) {
+
+    table{
+        width: 50%;
+    }    
+
+  }
+  

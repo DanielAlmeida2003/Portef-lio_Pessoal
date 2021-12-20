@@ -221,15 +221,16 @@ body{
 }
 
 .img_presentacao img {
-  width: 45% ;
   margin-right: 60px;
   border: 2px solid #1f004d ;
   border-radius: .5rem;
+  height:500px;
 }
 
 .img_presentacao .desc{
   width: 45% ;
   display: block;
+  font-size: 20px;
 } 
 
 .img_presentacao .desc span{
@@ -248,6 +249,8 @@ body{
   font-size: 17px;
   font-weight: bold;
   transition: 0.2s ease-in-out;
+  text-decoration: none;
+  cursor: pointer;
 
 }
 
