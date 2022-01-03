@@ -1,7 +1,5 @@
 .coluna_escola{
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
 }
 .escola{
     display: inline-flex;
@@ -17,10 +15,11 @@
     background-color: #a76749;
     overflow-x: scroll;
   }
-  
 
 .coluna_escola .esquerda{
     margin: auto;
+    width: 40%;
+    padding: 40px 50px;
 }
 
 .coluna_escola .esquerda a{
@@ -29,15 +28,22 @@
 }
 
 .coluna_escola .direita{
-    margin-left: 20px;
-   
+    overflow: auto;
+    width: 40%;
+    margin: auto;
 }
 
 @media screen and (max-width: 870px) {
 
+    .coluna_escola{
+        display: block;
+    }
+
     .coluna_escola .esquerda{
         display: block;
         width: 100%;
+        margin: auto;
+        padding: 0px;
         margin-bottom: 20px;
     }
     .gago_icon{
@@ -47,6 +53,7 @@
       .coluna_escola .direita{
         margin-left: 0px;
         width: 250px;
+        overflow: auto;
     }
 
   }

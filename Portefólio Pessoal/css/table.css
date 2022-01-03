@@ -7,6 +7,7 @@ table{
     border: 3px solid #cccc;
     border-radius: 1.5rem;
     border-collapse:collapse;
+
    
 }
 
@@ -38,7 +39,7 @@ table  #risk_disciplina{
 @media screen and (max-width: 870px) {
 
     table{
-        width: 50%;
+        width: 100%;
     }    
 
   }

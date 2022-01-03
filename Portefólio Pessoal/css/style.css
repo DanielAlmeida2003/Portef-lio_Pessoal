@@ -10,8 +10,6 @@ body{
   font-family: 'Space Grotesk', sans-serif;
   background-color: #eee;
   color: black;
-
-
 }
 
 .Apresentacao_com_bg_imagem{
@@ -22,6 +20,7 @@ body{
   height: 100vh;
   min-height: 500px;
   background-size: cover;
+
 }
 
 .Apresentacao_com_bg_imagem .max-width{
@@ -355,14 +354,24 @@ body{
 
 .projetos .carousel .card{
   background-color: #7094db;
+  height: 350px;
   border-radius: .5rem;
-  padding: 25px 35px;
+  padding: 25px ;
   text-align: center;
   transition: all 0.3s ease;
+  cursor: pointer;
+
+}
+.projetos .carousel .card a{
+   text-decoration: none;
+   color: black;
 }
 
 .projetos .carousel .card:hover{
   background-color:  #1f004d;
+  color: white;
+}
+.projetos .carousel .card a:hover{
   color: white;
 }
 
@@ -372,6 +381,7 @@ body{
     align-items: center;
     justify-content: center;
     border: none;
+
 }
 
 .projetos .carousel .card img{
