@@ -64,13 +64,14 @@
     border: 5px solid #1f004d;
     height: auto;
     width: 300px;
+    height: 200px;
     margin-bottom: 2px;
     opacity: 1;
     cursor: pointer;
     transition: 0.4s ease-in;
 }
 
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 1292px) {
 
     .fr_images{
         width: 100%;
