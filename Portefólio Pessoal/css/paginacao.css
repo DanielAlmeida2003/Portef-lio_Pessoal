@@ -1,0 +1,42 @@
+.paginacao {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.paginacao ul {}
+
+.paginacao ul li {
+    list-style: none;
+    display: inline;
+}
+
+.paginacao ul li .left_side {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.paginacao ul li .right_side {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.paginacao ul li a {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(196, 194, 194);
+    height: 30px;
+    transition: .2s ease-in;
+    margin-left: 2px;
+    cursor: pointer;
+    padding: 15px 15px 15px 15px;
+}
+
+.paginacao ul li a.active {
+    background-color: #1f004d;
+    color: white;
+}
+
+.paginacao ul li a:hover {
+    background-color: #1f004d;
+    color: white;
+}

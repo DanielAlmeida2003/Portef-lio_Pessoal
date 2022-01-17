@@ -64,9 +64,9 @@
 
 .fr_images {
     border: 5px solid #1f004d;
-    height: auto;
-    width: 370px;
     height: 400px;
+    width: 370px;
+    display: block;
     margin-bottom: 2px;
     opacity: 1;
     cursor: pointer;
