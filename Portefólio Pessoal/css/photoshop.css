@@ -37,6 +37,10 @@
     text-align: center;
 }
 
+.imagem_container:hover .imgens_pap{
+    opacity: 0.3;
+}
+
 .imagem_container:hover .fr_images_im {
     opacity: 0.3;
 }
