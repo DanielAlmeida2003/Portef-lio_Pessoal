@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portefólio || Daniel Almeida</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/photoshop.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/scroll.js" > </script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!--Carousel Scripts-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" ></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+        <script type="text/javascript" src="../js/carousel.js" > </script>
+
+        <!--Text Script-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+        
+
+        <!--Scroll Animation-->
+        <script type="text/javascript" src="../js/scroll.js" > </script>
+    </head>
+    <body>
+        <div class="scroll_button"><i class="fa fa-angle-up"></i></div>    
+        
+        <!-- Menu Principal-->
+        <ul class="menu">                
+            <li><a  href="#Contactos">Contactos</a></li>
+            <li><a  href="#Habilidades">Habilidades</a></li>
+            <li><a  href="#Projetos">Projetos</a></li>
+            <li><a  href="#Serviços">Serviços</a></li>
+            <li><a  href="#Percurso_Escolar">Percurso Escolar</a></li>
+            <li><a  href="#about">Sobre Mim</a></li>
+            <li ><a class="nav_bar" onclick="Hide_Menu();" ><i class="fa fa-navicon"></i></a></li>
+            <li><a  href="#home">Início</a></li>    
+        </ul>
+
+        <div id="Mobile_Options" class="Mobile_Options">
+            <li><a  ><i onclick="Close_Menu();" class="fa fa-times"></i></a></li>
+            <li><a onclick="Close_Menu();" href="#home">Início</a></li>
+            <li><a onclick="Close_Menu();" href="#about">Sobre Mim</a></li>
+            <li><a onclick="Close_Menu();" href="#Percurso_Escolar">Percurso Escolar</a></li>
+            <li><a onclick="Close_Menu();" href="#Serviços">Serviços</a></li>
+            <li><a onclick="Close_Menu();" href="#Projetos">Projetos</a></li>
+            <li><a onclick="Close_Menu();" href="#Habilidades">Habilidades</a></li>
+            <li><a onclick="Close_Menu();" href="#Contactos">Contactos</a></li>   
+        </div>
+
+        <!--Imagem de Fundo-->
+        <section class="Apresentacao_com_bg_imagem" id="home">
+            <div class="max-width">
+                <div class="content">
+                    <div class="text-2">Projeto de Aptidão Profissional</div>  
+                    <div class="text-3">Almeida Live Score</div>  
+                </div> 
+            </div>
+        </section>
+
+        
+        
+        <!-- Apresentação-->
+        <div class="box" id="about">
+
+            <scroll-container>
+                <scroll-page id="sobre_min_section"><p class="title_sobre_mim">Introdução</p></scroll-page>
+            </scroll-container>
+
+                    <div class="text_">
+                        <p>O projeto consiste na criação de um  <b>website de futebol</b> que permitirá aos utilizadores verem os resultados das suas equipas favoritas, partilharem a sua opinião perante outros utilizadores e também comunicarem com outros utilizadores.</p> 
+                        A escolha do tema também se deve ao facto de pretender aprofundar os meus conhecimentos nas linguagens de <b>programação (PHP, HTML, JAVASCRIPT e CSS)</b> e tive interesse em utilizar <b>API online</b>.
+                        <p>O principal objetivo da elaboração deste trabalho, é não só adquirir mais conhecimentos na área da programação como também, tentar compreender com maior profundidade o seu conceito e também perceber como perceber o conceito de API.</p> 
+ 
+                        Os programas utilizados para este projeto foram o Visual Studio Code, como a aplicação 
+                        utilizada para realizar toda a programação que faz respeito ao website, o <b>Xampp</b>, mais concretamente o <b>PHPmyAdmin</b>, que permitiu a criação da Base de Dados utilizada neste projeto e, finalmente, o <b>Composer</b> que diz respeito ao API.
+                    </div>
+
+                    <div class="imagem_container">
+                        <img src="../img/BD.png" class="imgens_pap">
+                        <div class="middle">
+                            <div class="text">Base de Dados</div>
+                        </div>
+                    </div>
+                    
+                    <div class="imagem_container">
+                        <img src="../img/Home.png" class="imgens_pap">
+                        <div class="middle">
+                            <div class="text">Home</div>
+                        </div>
+                    </div>
+                    <div class="imagem_container">
+                        <img src="../img/JD.png" class="imgens_pap">
+                        <div class="middle">
+                            <div class="text">Jogos em direto</div>
+                        </div>
+                    </div>
+                    <div class="imagem_container">
+                        <img src="../img/Tabela.png" class="imgens_pap">
+                        <div class="middle">
+                            <div class="text">Detalhes da Tabela da Liga</div>
+                        </div>
+                    </div>
+                    <div class="imagem_container">
+                        <img src="../img/Benfica.png" class="imgens_pap">
+                        <div class="middle">
+                            <div class="text">Detalhes do Clube</div>
+                        </div>
+                    </div>
+                    <div class="imagem_container">
+                        <img src="../img/Dashboard.PNG" class="imgens_pap">
+                        <div class="middle">
+                            <div class="text">Dashboard</div>
+                        </div>
+                    </div>
+
+            
+        </div>
+
+
+        <div class="box" id="Contactos">
+                <p class="title_sobre_mim"> Vamos Contactar</p>
+                <p class="title_contact"> Se quiser contactar-me...</p>
+                <section class="contact">   
+                     <div class="contact_option">
+                        <p class="title_with_icon"> <i class="fa fa-volume-control-phone"></i></p>
+                        <p class="title_with_icon" >Para contactar-me por telefone</p>
+                        <p class="title_with_icon" ><b>934427802</b></p>  
+                     </div>
+                     <div class="contact_option">
+                        <p class="title_with_icon"><i class="fa fa-envelope-o"></i></p>
+                        <p class="title_with_icon" >Para contactar-me por email</p>
+                        <p class="title_with_icon" ><b>danielalmeida.da3@gmail.com</b></p>  
+                    </div>
+                     <div class="contact_option">
+                        <p class="title_with_icon"><i class="fa fa-home"></i></p>
+                        <p class="title_with_icon" >Localização</p>
+                        <p class="title_with_icon" ><b>São João dos Montes</b></p>                      
+                    </div>
+                </section>
+        </div>
+
+            <form>
+                <p>Contacte-me</p>
+                <input type="text" placeholder="Nome" id="name" name="name"></input>
+                <input type="text" placeholder="Email" name="email"></input>
+                <textarea placeholder="Mensagem"></textarea>
+                <div class="btt_form">
+                    <button>Enviar</button>
+                </div>
+
+            </form>
+
+        <footer>
+
+
+            <div class="icons">
+                  <button> <i class="fa fa-instagram"></i> </button>
+                  <button> <i class="fa fa-facebook"></i> </button>
+                  <button> <i class="fa fa-whatsapp"></i> </button> 
+            </div>
+            <p>2021 Daniel Almeida, Portigal, Inc. Todos os direitos reservados &copy;</p><br>
+        </footer>
+      
+        <!--Menu Script-->
+        <script  src="../js/menu.js"></script>
+        <script type="text/javascript" src="../js/text_ap.js" > </script>
+        <script>
+            var x = window.matchMedia("(max-width: 870px)")
+            ScreenMenu(x) // Call listener function at run time
+            x.addListener(ScreenMenu) // Attach listener function on state changes
+        </script>
+
+
+    </body>
+
+</html>

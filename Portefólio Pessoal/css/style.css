@@ -3,6 +3,16 @@ html {
     scroll-behavior: smooth;
 }
 
+.text_ {
+    text-align: justify;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+
 body {
     margin: 0;
     padding: 0;
